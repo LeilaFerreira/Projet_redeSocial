@@ -1,0 +1,79 @@
+.log{
+  color:rgb(25,18,74);
+}
+
+*{box-sizing:  border-box;}
+@font-face {
+  font-family: "Montserrat"; src: url('montserrat/Montserrat-Medium.ttf');
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.container-fluid{
+      background-color: #fff;
+      height: 80px;
+      }
+
+
+footer a{
+  font-size: 15px;
+}
+
+
+header{
+
+  padding: 15px;
+  text-align: center;
+
+}
+a{
+  margin-top: 20px;
+  color: rgb(25,18,74);
+  text-decoration:none;
+  outline:none; /* retira as bodas do click  */
+}
+
+.card-header{
+  background-color: rgb(241,242,243);
+}
+/* .btn-link{
+  color: rgb(25,18,74);
+} */
+
+/* .slide{
+    height: 100%; width: 100%; background-color: rgb(0, 0, 0);
+    background-image: url("../image/imagemCadastro.jpeg");
+    background-position: 0px -90px    ;
+    background-size: 100%;
+    padding-bottom: 1280px;
+    position: fixed;
+    animation: scrollBgGridLinks 35s linear 0s 1 normal forwards running;
+} */
+.transparencia{
+    bottom: 0px; left: 0px; right: 0px; top: 0px; 
+    position:absolute; 
+    /* background: rgba(250, 247, 247, 0.5); */
+}
+.logoCadastro{
+  height: 10%;
+  width: 10%;
+
+}
+.text-center{
+  color: rgb(25,18,74);
+}
+
+.fotoPerfil{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+
+/* .logo{
+  border-radius: 260px
+} */

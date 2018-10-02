@@ -1,0 +1,57 @@
+*{font-family: 'Roboto', 'Segoe UI', Tahoma, Segoe UI, Arial, sans-serif;}
+.error{
+  color: blue;
+}
+
+/* .btn{
+    background-color: rgba(25,18,74,0.8);
+    color: white;
+    width: 200px;
+    vertical-align: bottom !important ;
+  }
+ */
+
+
+  .container{
+    background-color: white;
+    width: 37%;
+    border-radius: 5px;
+  }
+
+a{
+    color: rgb(25,18,74);
+    font-weight:bold;
+  }
+  body{
+
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  
+  }
+  .video {
+    width:100%;
+    
+    position: fixed;
+    
+  }
+  .button {
+    background-color: white;
+      color: black;
+      border-radius: 3px solid #e7e7e7;
+   }
+  
+  .button:hover {
+   background-color: #e7e7e7;
+   text-decoration: none;
+   outline:none;
+  }
+  .footer{
+      bottom: 10px;
+      left: 0px;
+      margin-bottom: 6px;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+  
+  }

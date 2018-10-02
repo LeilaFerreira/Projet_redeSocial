@@ -1,0 +1,20 @@
+
+
+.btn{
+  background-color: rgba(25,18,74,0.8);
+  color: white;
+  width: 200px;
+  vertical-align: bottom !important ;
+  
+}
+
+
+.container{
+  background-color: white;
+  width: 37%;
+  border-radius: 5px;
+}
+a{
+    color: rgb(25,18,74);
+    font-weight:bold;
+  }
