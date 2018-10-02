@@ -70,7 +70,7 @@
         <form>
   <div class="form-row">
     <div class="form-group col-md-6">
-      <label for="inputEmail4">Nome</label>
+      <label for="inputNomel4">Nome</label>
       <input type="nome" class="form-control" id="inputNome" placeholder="Nome">
     </div>
     <div class="form-group col-md-6">
@@ -79,13 +79,13 @@
     </div>
   </div>
   <div class="form-row ">
-  <div class="form-group">
+  <div class="form-group col-md-6">
     <label for="inputSenha">Senha</label>
-    <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
+    <input type="password" class="form-control" id="inputPassword14" placeholder="Senha">
   </div>
   <div class="form-group col-md-6">
     <label for="inputSenha2">Confirmar Senha</label>
-    <input type="password" class="form-control" id="inputPassword4" placeholder="Confirmar Senha">
+    <input type="password" class="form-control" id="inputConfirmePassword14" placeholder="Confirmar Senha">
   </div>
   </div>
   <div class="form-row">
@@ -110,8 +110,10 @@
   </div>
   
   </div>
+  
   <div class="form-group row">
-         <label for="upload-foto" class="col-sm-2 col-form-label">Foto</label>
+    
+  <label for="upload-foto" class="col-sm-2 col-form-label">Foto</label>     
          <div class="col-sm-10">
          <input type="file" accept="image/*" id="upload-foto" name="fotoPerfil">
    </div>
