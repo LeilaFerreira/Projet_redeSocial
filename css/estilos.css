@@ -6,7 +6,9 @@
 @font-face {
   font-family: "Montserrat"; src: url('montserrat/Montserrat-Medium.ttf');
 }
-
+background{
+  color: rgb(192, 177, 177)
+}
 body{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;

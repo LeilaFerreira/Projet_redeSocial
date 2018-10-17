@@ -4,8 +4,9 @@
     session_start();
     
     
-    if (!isset($_SESSION['usuarioLogado']) || !isset(  $_SESSION['nomeUsuario'] )){
-        header('location:\projeto-integrador-5\home.php');
+    if (!isset($_SESSION['nomeUsuario'] )){
+        header('location:..\home.php');
+       
         exit;
     }
 
@@ -29,9 +30,11 @@
             <textarea placeholder="Escrever uma publicação nova" name= "texto"></textarea>
             <label for="file-input">
             <img src="img/fotografia.png" title="inserir uma fotografia"/>
+            
             </label>
             <input type="submit" value="publicar" name= "publish"/>
             <input type="file" id="file-input"name="file" hidden/>
+            <?php echo $_SESSION['nomeUsuario']; ?>
           
         </form>  
     </div>      

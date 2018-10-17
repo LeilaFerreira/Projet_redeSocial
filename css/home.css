@@ -21,17 +21,7 @@ body{
     cursor: pointer;
 }
  */
- .button {
-  background-color: white;
-    color: black;
-    border-radius: 3px solid #e7e7e7;
- }
-
-.button:hover {
- background-color: #e7e7e7;
- text-decoration: none;
- outline:none;
-}
+ 
 
 
 .container{
@@ -42,7 +32,7 @@ body{
 
 .content {
   position: fixed;
-  bottom: 20%;
+  bottom: 10%;
   background: rgba(7, 7, 7, 0.5);
   color: #f1f1f1;
   width: 90%;
@@ -51,12 +41,49 @@ body{
   border-radius: 8px;
 }
 
+
+
 .video {
   width:100%;
   
   position: fixed;
   
 }
+input[type="file"] {
+  display: none;
+}
+.lblBtnFile{
+  background-color: #ab0127;
+ 
+}
 
-
-
+  .button:hover {
+   background-color: #e7e7e7;
+   text-decoration: none;
+   outline:none;
+  }
+  .button {
+    background-color: #ab0127;
+    border-color: #ab0127;
+    color: #fff;
+    margin-bottom: 0 !important;
+      
+   }
+  
+   .btn{
+    background-color: #ab0127;
+    border-color: #ab0127;
+    color: #fff;
+    }
+  .alinhaDireita{
+      padding-left: 16%;
+      padding-top: 1%;
+     
+  }
+  .tdTamanho{
+    width:33%;
+  }
+  .tdAlingCenter{
+    vertical-align: center;
+  }
+    
